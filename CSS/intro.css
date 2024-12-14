@@ -1,0 +1,175 @@
+* {
+  font-family: sans-serif;
+}
+
+nav {
+  height: 120px;
+}
+.offcanvas {
+  width: 95%;
+}
+
+.logo {
+  height: 115px;
+}
+.nav-link {
+  font-size: 19px;
+  padding: 0.5rem 1rem;
+  color: black;
+}
+.mybtn {
+  background-color: #2d8e84;
+  color: white;
+  height: 45px;
+}
+.mybtn:hover {
+  border: 1px solid #2d8e84;
+  color: #2d8e84;
+  background-color: white;
+}
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0.125em;
+}
+.dropend:hover > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: 0.125em;
+}
+.dropend a:hover {
+  background-color: #20726a;
+}
+.mymargin {
+  /* margin-top: 2.3rem; */
+  margin: 35px 0px;
+}
+.dropdown-menu {
+  min-width: 12rem;
+  padding: 0.5rem 8px;
+  margin: 0;
+  font-size: 1px;
+  background-color: #2d8e84;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+}
+.dropdown-item {
+  width: 100%;
+  padding: 0.25rem 1rem;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+}
+.dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: 0;
+  /* margin-top: 2.3rem; */
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: white;
+  background-color: #20726a;
+  border-radius: 5px;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: #2d8e84;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../IMAGES/grey-plus-icon-removebg.png);
+  transform: rotate(47deg);
+}
+.accordion-button:after {
+  background-image: url(../IMAGES/grey-plus-icon-removebg.png);
+}
+.offcanvasBlackBg {
+  background-color: black;
+}
+.accordion-button:not(.collapsed) {
+  background-color: black;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-radius: 0%;
+}
+.accordion-body {
+  padding: 2px 20px;
+}
+
+.offcanvasBlackBg a,
+li,
+h2 {
+  font-size: 18px;
+}
+.offcanvasHoverColor:hover {
+  color: #20726a;
+}
+.offcanvasHoverColor:focus {
+  color: #20726a;
+}
+.accordion-button:not(.collapsed) {
+  color: white;
+}
+.offcanvasHoverColor {
+  color: white;
+}
+.offcanvas a {
+  color: white;
+  text-decoration: underline;
+}
+.offcanvas a:hover {
+  color: #20726a;
+  text-decoration: underline;
+}
+.offcanvas a:focus {
+  color: #20726a;
+  text-decoration: underline;
+}
+.footerBlack {
+  background-color: black;
+}
+.footerBlack p {
+  font-size: 16px;
+}
+.footerBlack strong {
+  text-decoration: 3px underline solid #2d8e84;
+  text-underline-offset: 7px;
+}
+.iconBoxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 45px;
+  border: 2px solid white;
+}
+
+.iconBoxes i {
+  font-size: 20px;
+}
+
+.copyRightSection {
+  background-color: #2d8e84;
+}
+.copyRightSection p {
+  color: white;
+  font-size: 16px;
+}
+.copyRightSection a {
+  color: orange;
+  font-weight: normal;
+  text-decoration: underline;
+}
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  .logo {
+    height: 90px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .mybtn {
+    display: none;
+  }
+}

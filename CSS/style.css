@@ -1,0 +1,384 @@
+/* Show the dropdown menu on hover */
+/* .dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: #2d8e84;
+  border-radius: 10px;
+} */
+* {
+  font-family: sans-serif;
+}
+
+nav {
+  height: 120px;
+}
+.offcanvas {
+  width: 95%;
+}
+
+.logo {
+  height: 115px;
+}
+.nav-link {
+  font-size: 19px;
+  padding: 0.5rem 1rem;
+  color: black;
+}
+.mybtn {
+  background-color: #2d8e84;
+  color: white;
+  height: 45px;
+}
+.mybtn:hover {
+  border: 1px solid #2d8e84;
+  color: #2d8e84;
+  background-color: white;
+}
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0.125em;
+}
+.dropend:hover > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: 0.125em;
+}
+.dropend a:hover {
+  background-color: #20726a;
+}
+.mymargin {
+  /* margin-top: 2.3rem; */
+  margin: 35px 0px;
+}
+.dropdown-menu {
+  min-width: 12rem;
+  padding: 0.5rem 8px;
+  margin: 0;
+  font-size: 1px;
+  background-color: #2d8e84;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+}
+.dropdown-item {
+  width: 100%;
+  padding: 0.25rem 1rem;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+}
+.dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: 0;
+  /* margin-top: 2.3rem; */
+}
+/* .dropdown-menu {
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  min-width: 13rem;
+  height: auto;
+  padding: 0px;
+  margin: 0;
+  font-size: 1rem;
+  text-align: left;
+  list-style: none;
+  background-color: red;
+  background-clip: border-box;
+  border: 2px solid white;
+  border-radius: 10px;
+} */
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #2d8e84;
+}
+/* .dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  clear: both;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #0066ef;
+  border: 0;
+} */
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: white;
+  background-color: #20726a;
+  border-radius: 5px;
+}
+
+main .heroSectionbtn {
+  background-color: #20726a;
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1;
+}
+
+.qText {
+  color: #2d8e84;
+}
+
+.ourServiceBg1 {
+  background: linear-gradient(to top left, #be2edd 49%, #e056fd 50%);
+}
+.ourServiceBg2 {
+  background: linear-gradient(to top left, #ff7200 49%, #fe9400 50%);
+}
+.ourServiceBg3 {
+  background: linear-gradient(to top left, #0066ef 49%, #018cf5 50%);
+}
+
+.colorBgBanners i {
+  font-size: 35px;
+}
+
+.buttonColor {
+  background-color: #20726a;
+}
+
+.circleDiv {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+}
+.circleDivParentDiv:hover .circleDiv {
+  background-color: #20726a;
+}
+
+.myCards a {
+  background-color: #2d8e84;
+}
+.myCards a:hover {
+  background-color: black;
+}
+
+.myCards {
+  border-bottom: 3px solid #2d8e84;
+}
+.myCards h5:hover {
+  color: #2d8e84;
+}
+
+.BQcolor {
+  background-color: #2d8e84;
+}
+.BQcolor:hover {
+  background-color: black;
+}
+.aboutUsImgs {
+  border-radius: 10px;
+}
+.aboutUsLists ul {
+  list-style: none;
+  font-size: 17px;
+}
+.aboutUsLists i {
+  color: #2d8e84;
+  font-size: 17px;
+}
+
+.aboutUsPara {
+  font-size: 17px;
+}
+
+.popularCoursesBg {
+  background-color: #f3f7fb;
+}
+.popularCoursesBg strong,
+p {
+  font-size: 14px;
+}
+.popularCoursesBg strong {
+  color: #2d8e84;
+}
+
+.whoWeAreBg {
+  background-color: #002749;
+}
+
+.whoWeAreBg p {
+  font-size: 20px;
+}
+
+.whiteBorder {
+  border: 1px solid white;
+}
+.whiteBorder:hover {
+  background-color: rgba(0, 0, 0, 0.251);
+  border: 1px solid white;
+}
+
+.contactUs {
+  background-color: #f3f7fb;
+}
+
+.contactUs p {
+  font-size: 16px;
+}
+.contactUs i {
+  font-size: 20px;
+}
+
+.BQFontColor {
+  color: #2d8e84;
+}
+.contactUs button {
+  background-color: #2d8e84;
+  color: white;
+  font-size: 17px;
+}
+.contactUs button:hover {
+  border: 1px solid #2d8e84;
+  background-color: white;
+  color: #2d8e84;
+}
+
+.ourTesttimonialsSection p {
+  font-size: 18px;
+}
+
+.reviewName {
+  color: grey;
+}
+.reviewCard {
+  background-color: #f5f5f5;
+  border-bottom: 3px solid #20726a;
+}
+
+.myContainer {
+  background-color: #20726a;
+  border-radius: 20px;
+  position: relative;
+  top: 60px;
+}
+
+.myContainer i {
+  font-size: 35px;
+  color: white;
+}
+.myContainer .i-Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.footerBlack {
+  background-color: black;
+}
+.footerBlack p {
+  font-size: 16px;
+}
+.footerBlack strong {
+  text-decoration: 3px underline solid #2d8e84;
+  text-underline-offset: 7px;
+}
+.iconBoxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 45px;
+  border: 2px solid white;
+}
+
+.iconBoxes i {
+  font-size: 20px;
+}
+
+.copyRightSection {
+  background-color: #2d8e84;
+}
+.copyRightSection p {
+  color: white;
+  font-size: 16px;
+}
+.copyRightSection a {
+  color: orange;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../IMAGES/grey-plus-icon-removebg.png);
+  transform: rotate(47deg);
+}
+.accordion-button:after {
+  background-image: url(../IMAGES/grey-plus-icon-removebg.png);
+}
+.offcanvasBlackBg {
+  background-color: black;
+}
+.accordion-button:not(.collapsed) {
+  background-color: black;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-radius: 0%;
+}
+.accordion-body {
+  padding: 2px 20px;
+}
+
+.offcanvasBlackBg a,
+li,
+h2 {
+  font-size: 18px;
+}
+.offcanvasHoverColor:hover {
+  color: #20726a;
+}
+.offcanvasHoverColor:focus {
+  color: #20726a;
+}
+.accordion-button:not(.collapsed) {
+  color: white;
+}
+.offcanvasHoverColor {
+  color: white;
+}
+.offcanvas a {
+  color: white;
+  text-decoration: underline;
+}
+.offcanvas a:hover {
+  color: #20726a;
+  text-decoration: underline;
+}
+.offcanvas a:focus {
+  color: #20726a;
+  text-decoration: underline;
+}
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  .logo {
+    height: 90px;
+  }
+  main .heroSectionbtn {
+    background-color: #20726a;
+    height: 30px;
+    width: 30px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .mybtn {
+    display: none;
+  }
+}
